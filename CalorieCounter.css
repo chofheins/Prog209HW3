@@ -1,1 +1,24 @@
-
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.left-col {
+    border-right: 2px solid black;
+}
+.content {
+    margin:auto; 
+    height:auto; 
+    overflow:auto;
+    background-color: lightsteelblue;
+    border: 4px solid black;
+}
+.break {
+    border: 3px solid black;
+    width: 50%;
+    text-align: left;
+    margin-left:0;
+}

@@ -10,33 +10,35 @@
 
 <body>
     <main>
-        <section class="left-col">
-            <h1>Enter data for what you ate</h1>
-            <div class="input-fields">
-                <div class="item">
-                    <label for="Item">Name of food:</label>
-                    <input type="text" id="Item" name="item">
+        <div class="content">
+            <section class="column">
+                <div class="left-col">
+                    <h1>Enter data for what you ate</h1>
+                    <div class="item">
+                        <label for="Item">Name of food:</label>
+                        <input type="text" id="Item" name="item">
+                    </div>
+                    <div class="calories">
+                        <label for="Calories">Calories:</label>
+                        <input type="text" id="Calories" name="calories">
+                    </div>
+                    <div class="quantity">
+                        <label for="Quantity">How many did you eat:</label>
+                        <input type="text" id="Quantity" name="Quantity">
+                    </div>
+                    <button type="button" id="add-btn">Click to Add to Your Total</button>
+                    <br>
+                    <br>
+                    <button type="button" id="clear-btn">Clear</button>
                 </div>
-                <div class="calories">
-                    <label for="Calories">Calories:</label>
-                    <input type="text" id="Calories" name="calories">
-                </div>
-                <div class="quantity">
-                    <label for="Quantity">How many did you eat:</label>
-                    <input type="text" id="Quantity" name="Quantity">
-                </div>
-            </div>
-            <button type="button" id="add-btn">Click to Add to Your Total</button>
-            <br>
-            <br>
-            <button type="button" id="clear-btn">Clear</button>
-        </section>
-        <section class="right-col">
-            <h3 id="listHeader">Food--Calories--Quantity</h3>
-            <ul id="list">
-            </ul>
-            <hr>
-            <h3 id="totalCalories"></h3>
-        </section>
+            </section>
+            <section class="column">
+                <h3 id="listHeader">Food--Calories--Quantity</h3>
+                <ul id="list">
+                </ul>
+                <hr class="break">
+                <h3 id="totalCalories"></h3>
+            </section>
+        </div>
     </main>
 </body>
